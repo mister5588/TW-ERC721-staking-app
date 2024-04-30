@@ -1,6 +1,6 @@
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { defineChain } from "thirdweb";
-export const CHAIN = defineChain(660279)
+export const CHAIN = defineChain(660279);
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
 // This is the chain your dApp will work on.
