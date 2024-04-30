@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider
       activeChain={Xai}
-      clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
+      clientId="18360672378d10a824c58a83e95957b6"
     >
       <Component {...pageProps} />
     </ThirdwebProvider>
