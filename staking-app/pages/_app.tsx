@@ -1,10 +1,10 @@
 import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { defineChain } from "thirdweb";
+export const CHAIN = defineChain(660279)
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
-import { Xai } from "@thirdweb-dev/chains";
-import { NETWORK } from "../consts/contractAddresses";
 // This is the chain your dApp will work on.
-const activeChain = Xai;
+const activeChain = CHAIN;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
