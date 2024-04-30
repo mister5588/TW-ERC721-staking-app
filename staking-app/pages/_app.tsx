@@ -8,7 +8,7 @@ const activeChain = "Xai";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={activeChain}>
+    <ThirdwebProvider activeChain={activeChain} clientID="18360672378d10a824c58a83e95957b6">
       <Component {...pageProps} />
     </ThirdwebProvider>
   );
